@@ -1,0 +1,25 @@
+{
+  "name": "first_proj",
+  "version": "1.0.0",
+  "description": "* [Preview](https://igorskiy.github.io/first_proj/)\r * [PullRequest](https://github.com/Igorskiy/first_proj/pull/1/files)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ./**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igorskiy/first_proj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igorskiy/first_proj/issues"
+  },
+  "homepage": "https://github.com/Igorskiy/first_proj#readme",
+  "devDependencies": {
+    "@mate-academy/eslint-config": "0.0.9",
+    "eslint": "^6.5.1",
+    "eslint-plugin-node": "^10.0.0"
+  }
+}
